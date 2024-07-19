@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storyafrika | Landing Page</title>
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+<body class="transition-all ease">
+    <header class="container mx-auto flex justify-between items-center mt-10 px-5 sm:px-2 md:px-0">
+        <h1 class="text-[30px] logo">storyafrika</h1>
+        <nav>
+            <ul class="flex gap-4 items-center">
+                <li class="shrink-0"><a href="#our-story">Our story</a></li>
+                <li class="shrink-0"><a href="">Sign in</a></li>
+                <li class="hidden sm:block"><button class="bg-black px-[12px] py-2 rounded-full text-white hover:bg-purple"><a href="">Share Experience</a></button></li>
+                <li class="hidden md:block"><button class="bg-lightblue px-[12px] py-2 rounded-full text-white hover:bg-purple"><a href="">Start Reading</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mx-auto">
+        <section class="hero container mx-auto flex items-center justify-between mt-24">
+            <div class="relative isolation-isolate w-full px-5 pb-5 md:before:hidden md:p-0 md:bg-[url('')] md:w-3/5 xl:w-2/4 before:block before:absolute before:inset-0 before:-z-10 before:bg-[url('write.webp')] before:bg-center before:w-full before:h-full before:opacity-[70%]">
+                <h2 class="text-brown text-xl -mt-8 md:-mt-0 md:text-[24px] lg:text-[32px]">Inspiring Journey</h2>
+                <h3 class="text-black text-[55px] sm:text-[65px] md:text-[45px] lg:text-[75px]">Success Stories & Experiences of Everyday Africans</h3>
+                <button class="bg-lightblue px-[12px] py-2 rounded-full text-white mt-5 hover:bg-purple"><a href="">Start Reading</a></button>
+            </div>
+            <div class="w-[40%] h-[600px] hidden md:block md:h-[400px] lg:h-[600px] lg:w-[40%] xl:h-[600px] xl:w-[2/4]">
+                <img class="w-full h-full object-cover" src="write.webp" alt="">
+            </div>
+
+        </section>
+        <!-- our story -->
+        <section class="container mx-auto" id="our-story">
+            <h2 class="text-[50px] pt-[150px] mb-[150px] md:mb-[50px] mx-auto w-[300px] md:mx-0 md:w-[400px]">Africans have a <span class="text-lightblue font-medium">unique</span> story to tell</h2>
+            <article class="px-5 flex flex-col gap-5 md:w-[600px] md:px-0">
+                <p class="text-lightgray text-[30px] md:text-[35px]">Storyafrika is a platform showcasing the real-life experiences and stories of individual Africans, highlighting their upbringing, everyday successes, and much more.</p>
+                <p class="text-lightgray text-[30px] md:text-[35px]">This is how Storyafrika began: A man named Balla shared with me how he grew up in Kabala, in an extended family with 17 siblings. He recounted the activities they engaged in, the games they played as children, and how his father managed to protect all his kids during the war. This fascinating story allowed me to vividly imagine his experiences, and I wanted others to hear it as well. Thus, the idea of creating a platform dedicated to sharing the stories and everyday experiences of people like Balla was born.</p>
+                <p class="text-lightgray text-[30px] md:text-[35px]"><span class="font-medium">Our ultimate goal is to connect everyday Africans with one another through storytelling and writing.</span> We aim to preserve the unique stories of Africa and its people forever.</p>
+            </article>
+        </section>
+
+        <!-- notes from the author -->
+         <section class="container mx-auto">
+            <h2 class="text-[50px] mt-[150px] mb-[150px] md:mb-[50px] mx-auto w-[300px] md:mx-0 md:w-[400px]">A little note from the developer</h2>
+            <article class="px-5 lg:w-[800px]">
+                <p class="text-[18px] text-lightgray"><span class="text-[50px]">Hi</span>, I'm David and thank you for visiting storyafrika. I'm really passionate about telling the African story, so I developed storyafrika.</p>
+                <p class="text-[18px] text-lightgray">If you would like to view the code it is available here on <a href="https://www.github.com/davidddeveloper/storyafrika" target="_blank" class="text-lightblue">github.</a></p>
+                <p class="text-[18px] text-lightgray"><br>connect with me on <a href="https://www.linkedin.com/in/david-conteh-a42871253/" target="_blank" class="text-lightblue">LinkedIn</a><br>follow me on X(twitter) at <a href="https://www.linkedin.com/in/david-conteh-a42871253/" target="_blank" class="text-lightblue">davidpaulconteh</a><br>on discord at davidconteh<br>on facebook at davidddeveloper</p>
+            </article>
+         </section>
+    </main>
+    <footer class="mt-[100px]">
+        <div class="w-full border-t-2 border-black py-[35px] flex justify-center">
+            <p class="text-lightgray text-[18px] logo-bottom">storyafrika</p>
+        </div>
+    </footer>
+    <script>
+        const scroll_to = (target) => {
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById("our-story");
+
+                scroll_to(targetSection)
+            });
+        });
+        document.querySelector('.logo-bottom').addEventListener('click', function (e) {
+            e.preventDefault()
+            const target = document.querySelector('.logo')
+
+            scroll_to(target)
+        })
+    </script>
+</body>
+</html>
