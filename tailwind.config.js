@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['src/*.js', 'src/components/.js', 'src/*.jsx', 'src/components/*.jsx', 'src/components/**/.jsx', 'src/components/**/.js'],
+  content: ['src/*.js', 'src/components/.js', 'src/screens/*.js', 'src/screens/*.jsx', 'src/*.jsx', 'src/components/*.jsx', 'src/components/**/.jsx', 'src/components/**/.js'],
   theme: {
     extend: {
       colors: {
@@ -8,7 +8,9 @@ module.exports = {
         'brown': '#7E0808',
         'lightblue': '#2DAFAF',
         'lightgray': '#4A4A4A',
-        'purple': '#9747FF'
+        'extra-lightgray': '#D9D9D9',
+        'purple': '#9747FF',
+        'red': '#F24E1E'
       },
       screens: {
         'sm': '480px',
