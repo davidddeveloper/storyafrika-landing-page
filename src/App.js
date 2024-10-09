@@ -1,6 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import logo from './logo.svg';
 import Navigation from './components/Navigation';
 import Home from './screens/Home'
 import FixedNav from './components/FixedNav';
