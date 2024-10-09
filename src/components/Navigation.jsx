@@ -8,7 +8,9 @@ export default function Navigation () {
     const handleChangeTheme = () => {
         setTheme('bg-black text-white')
     }
-
+    const handleChangeTheme_about = () => {
+        setTheme('bg-white text-lightgray')
+    }
     useEffect(() => {
         root.className = theme + ' transition-colors duration-500'
     }, [root, theme])

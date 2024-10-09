@@ -8,6 +8,9 @@ export default function FixedNav () {
       const handleChangeTheme = () => {
         setTheme('bg-white text-lightgray')
      }
+      const handleChangeTheme_about = () => {
+        setTheme('bg-white text-lightgray')
+     }
 
     useEffect(() => {
         root.className = theme + ' transition-colors duration-500'
@@ -16,7 +19,7 @@ export default function FixedNav () {
         <section className="p-5 bg-extra-lightgray fixed bottom-0 flex justify-between text-black text-lg w-full">
             <div>
                 {/* about us */}
-                <button ><Link to="/about-us">About Us</Link></button>
+                <button onClick={ handleChangeTheme_about}><Link to="/about-us">About Us</Link></button>
             </div>
             <div>
                 <button> <Link to="/for-writers">For Writers</Link></button>
