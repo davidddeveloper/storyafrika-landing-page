@@ -16,7 +16,7 @@ export default function FixedNav () {
         root.className = theme + ' transition-colors duration-500'
     }, [root, theme])
     return (
-        <section className="p-5 bg-extra-lightgray fixed bottom-0 flex justify-between text-black text-lg w-full">
+        <section className="p-5 bg-extra-lightgray fixed bottom-0 flex justify-between text-black text-lg w-full md:hidden">
             <div>
                 {/* about us */}
                 <button onClick={ handleChangeTheme_about}><Link to="/about-us">About Us</Link></button>
