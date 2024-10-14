@@ -573,6 +573,210 @@ video {
   top: 0px;
 }
 
+.top-4 {
+  top: 1rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-40 {
+  left: 10rem;
+}
+
+.left-60 {
+  left: 15rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.right-\[20\%\] {
+  right: 20%;
+}
+
+.right-\[40\%\] {
+  right: 40%;
+}
+
+.bottom-\[50\%\] {
+  bottom: 50%;
+}
+
+.left-\[5\%\] {
+  left: 5%;
+}
+
+.right-\[30\%\] {
+  right: 30%;
+}
+
+.right-\[15\%\] {
+  right: 15%;
+}
+
+.left-\[15\%\] {
+  left: 15%;
+}
+
+.left-\[22\%\] {
+  left: 22%;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.top-\[40\%\] {
+  top: 40%;
+}
+
+.top-\[35\%\] {
+  top: 35%;
+}
+
+.top-\[42\%\] {
+  top: 42%;
+}
+
+.top-\[43\%\] {
+  top: 43%;
+}
+
+.left-\[21\%\] {
+  left: 21%;
+}
+
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.top-\[15\%\] {
+  top: 15%;
+}
+
+.top-\[5\%\] {
+  top: 5%;
+}
+
+.right-\[17\%\] {
+  right: 17%;
+}
+
+.right-\[22\%\] {
+  right: 22%;
+}
+
+.right-\[24\%\] {
+  right: 24%;
+}
+
+.right-\[25\%\] {
+  right: 25%;
+}
+
+.top-\[3\%\] {
+  top: 3%;
+}
+
+.top-\[2\%\] {
+  top: 2%;
+}
+
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.top-\[55\%\] {
+  top: 55%;
+}
+
+.right-\[48\%\] {
+  right: 48%;
+}
+
+.top-\[25\%\] {
+  top: 25%;
+}
+
+.top-\[250\%\] {
+  top: 250%;
+}
+
+.left-\[25\%\] {
+  left: 25%;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.left-\[35\%\] {
+  left: 35%;
+}
+
+.left-\[33\%\] {
+  left: 33%;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[48\%\] {
+  left: 48%;
+}
+
+.left-\[49\%\] {
+  left: 49%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -638,6 +842,42 @@ video {
   height: 80vh;
 }
 
+.h-\[120px\] {
+  height: 120px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -654,8 +894,16 @@ video {
   flex-shrink: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -737,6 +985,14 @@ video {
   padding-top: 0px;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -802,6 +1058,26 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -863,12 +1139,28 @@ video {
     margin-right: auto;
   }
 
+  .sm\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .sm\:block {
     display: block;
   }
 
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:h-\[120px\] {
     height: 120px;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
   }
 
   .sm\:px-2 {
@@ -886,6 +1178,10 @@ video {
     position: absolute;
   }
 
+  .md\:relative {
+    position: relative;
+  }
+
   .md\:top-0 {
     top: 0px;
   }
@@ -896,6 +1192,10 @@ video {
 
   .md\:top-20 {
     top: 5rem;
+  }
+
+  .md\:top-10 {
+    top: 2.5rem;
   }
 
   .md\:mx-auto {
@@ -970,6 +1270,18 @@ video {
 
   .md\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .md\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .md\:pl-60 {
+    padding-left: 15rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:text-\[24px\] {
