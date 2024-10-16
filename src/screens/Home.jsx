@@ -5,7 +5,7 @@ import Readers  from "../assets/svgs/readers.svg"
 import Writers  from "../assets/svgs/writers.svg"
 import Group  from "../assets/svgs/Group 5.svg"
 import { Link } from "react-router-dom"
-
+import Know_us  from "../assets/svgs/Know us_.svg"
 
 
 export default function Home() {
@@ -55,6 +55,12 @@ export default function Home() {
         <Link to="/for-writers" smooth={true} duration={500}> <img
           className="absolute top-[55%] right-[48%] h-[120px] cursor-pointer"
           src={Writers}
+          alt="Writers SVG"
+        />
+        </Link>
+        <Link to="/about-us" smooth={true} duration={500}> <img
+          className="absolute bottom-[25%] right-[5%] h-[30px] cursor-pointer"
+          src={Know_us}
           alt="Writers SVG"
         />
         </Link>
