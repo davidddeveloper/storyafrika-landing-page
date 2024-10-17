@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <section
       className={
-        'hero container mx-auto md:relative sm:flex sm:items-center sm:justify-between mt-24' +
+        'hero container mx-auto md:relative sm:flex sm:items-center sm:justify-between mt-24 ' +
         ' ' +
         theme
       }
@@ -59,7 +59,7 @@ export default function Home() {
         />
         </Link>
         <Link to="/about-us" smooth={true} duration={500}> <img
-          className="absolute bottom-[25%] right-[5%] h-[30px] cursor-pointer"
+          className="absolute bottom-[25%] right-[5%] h-[22px] w-[82px] cursor-pointer"
           src={Know_us}
           alt="Writers SVG"
         />

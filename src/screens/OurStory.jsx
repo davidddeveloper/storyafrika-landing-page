@@ -3,7 +3,7 @@ import { useTheme } from "../theme"
 import Tree from "../assets/svgs/tree.svg"
 import down from "../assets/svgs/down1.svg"
 import { Link } from "react-scroll";
-
+import DavidConteh from '../assets/svgs/davidconteh card.svg'
 
 export default function OurStory () {
     const {theme, setTheme} = useTheme()
@@ -24,13 +24,20 @@ export default function OurStory () {
                 Storyafrika is a platform showcasing the real-life experiences and stories of individual Africans, highlighting their upbringing, everyday successes, and much more.
 
                 </p>
-               <Link to="about" smooth={true} duration={500}> <img className=" hidden sm:block mx-auto mt-20" src={down} alt="down" /></Link> 
+               <Link to="about" smooth={true} duration={500}> <img className=" hidden md:block mx-auto mt-20 h-200px w-200px" src={down} alt="down" /></Link> 
             </article>
-            <article id ="about" className="md:w-[50%] md:mx-auto md:top-20">
-                <h2 className="block  mt-[80px] mb-[80px] text-[50px] text-white  md:mx-auto md:top-60">How we began</h2>
+            <article id ="about" className="md:w-[45%] md:mx-auto  md:top-20">
+                <h2 className="block  mt-[80px] mb-[80px] text-[50px] text-white  md:top-60 w-[292px] h-[122px]">How we began</h2>
                 <p className="text-[30px] text-extra-lightgray  px-auto ">This is how Storyafrika began: A man named Balla shared with me how he grew up in Kabala, in an extended family with 17 siblings. He recounted the activities they engaged in, the games they played as children, and how his father managed to protect all his kids during the war.</p>
                 <p className="text-[30px] text-extra-lightgray mt-[20px]">This fascinating story allowed me to vividly imagine his experiences, and I wanted others to hear it as well. Thus, the idea of creating a platform dedicated to sharing the stories and everyday experiences of people like Balla was born.</p>
+                 <img
+                 className="block  md:mx-0 ml-0 mt-10 pl-0 sm:w-[336px] sm:h-[98px]"
+                 src={DavidConteh}
+                 alt=''
+                 />
             </article>
+ 
+            
         </section>
     )
 }
