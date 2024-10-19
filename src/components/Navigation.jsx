@@ -18,8 +18,8 @@ export default function Navigation () {
     }, [root, theme])
 
     return (
-        <header className={"container mx-auto flex justify-between items-center pt-10 px-5 sm:px-2 md:px-0 lg:px-40 md:w-[90%] md:h-[46px] "}>
-            <h1 className="text-[30px] logo " onClick={ handleChangeTheme_white}><Link to="/">storyafrika</Link></h1>
+        <header className={"container mx-auto flex justify-between items-center pt-10 px-5 sm:px-2 md:px-0 lg:px-40  md:h-[46px] "}>
+            <h1 className="text-[30px] logo " onClick={ handleChangeTheme_white}><Link to="/">storyAfrika</Link></h1>
             <nav>
                 <ul className="flex gap-4 items-center ">
                     <li className="shrink-0 text-lg" onClick={ handleChangeTheme} ><Link to="/our-story">Our story</Link></li>

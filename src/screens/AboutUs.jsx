@@ -9,7 +9,7 @@ export default function AboutUs () {
                     <h2 className="md:relative md:text-[60px] md:w-[50%] text-[50px] w-[50%]">About Us</h2>
                 </div>
                 <img
-                className='hidden md:block md:absolute md:top-[97px] md:left-[40%] md:h-[374px] md:w-[409.42px] md:object-cover'
+                className='animate-pulse hidden md:block md:absolute md:top-[97px] md:left-[40%] md:h-[374px] md:w-[409.42px] md:object-cover'
                 src={Insight}
                 alt=''
                 />

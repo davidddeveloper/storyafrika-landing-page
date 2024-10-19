@@ -3,3 +3,9 @@
 @tailwind components;
 
 /* custom styles */
+.text_h{
+    font-size: calc(16px + 5vh);
+}
+.flip-horizontal {
+    transform: scaleX(-1);
+}

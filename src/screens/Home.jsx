@@ -6,10 +6,16 @@ import Writers  from "../assets/svgs/writers.svg"
 import Group  from "../assets/svgs/Group 5.svg"
 import { Link } from "react-router-dom"
 import Know_us  from "../assets/svgs/Know us_.svg"
+import { useEffect } from "react"
 
 
 export default function Home() {
   const { theme, setTheme } = useTheme('');
+
+  useEffect(() => {
+    setTheme('bg-white text-black')
+  }, )
+
 
   return (
     <section
@@ -59,7 +65,7 @@ export default function Home() {
         />
         </Link>
         <Link to="/about-us" smooth={true} duration={500}> <img
-          className="absolute bottom-[25%] right-[5%] h-[22px] w-[82px] cursor-pointer"
+          className="absolute bottom-[-2%] right-[10%] h-[22px] w-[82px] cursor-pointer"
           src={Know_us}
           alt="Writers SVG"
         />
@@ -82,13 +88,15 @@ export default function Home() {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden relative isolation-isolate w-full px-5 pb-5 md:before:hidden md:p-0 md:w-3/5 xl:w-2/4">
+      <div className="md:hidden relative isolation-isolate w-full px-5 pb-[100px] md:before:hidden md:p-0 md:w-3/5 xl:w-2/4">
         <h2 className="text-brown text-xl -mt-8 md:-mt-0 md:text-[24px] lg:text-[32px]">
           Inspiring Journey
         </h2>
-        <h3 className="text-[55px] sm:text-[65px] md:text-[45px] lg:text-[75px]">
+       { /* text-[55px] sm:text-[65px] md:text-[45px] lg:text-[75px] */}
+        <h3 className=" text_h ">
           Success Stories & Experiences of Everyday Africans
         </h3>
+
         <button className="bg-lightblue px-[12px] py-2 rounded-full text-white text-lg mt-5 hover:bg-purple">
           <a href="https://stories.storyafrika.live">Start Reading</a>
         </button>

@@ -14,9 +14,9 @@ export default function OurStory () {
         <section className=" mt-20 px-5 md:px-35 pb-20">
             <header className="w-full relative">
                 <div className="container mx-auto">
-                    <img className="block absolute top-0 right-0 h-[200px] object-cover md:top-0 md:pr-80" src={Tree} alt=""/>
-                    <h2 className="text-[50px] md:text-[70px] w-[80%] md:w-[40%] md:mx-auto pl-7 md:pl-0 ">Africans have a <span className="text-lightblue">unique</span> story to tell</h2>
-                    <img className="block absolute bottom-3 md:top-50 md:pl-80 sm:left-0  sm:h-[120px]" src={Tree} alt=""/>
+                    <img className="block absolute top-0 right-0 h-[200px] object-cover md:pr-[23%]" src={Tree} alt=""/>
+                    <h2 className="text-[50px] md:text-[60px] w-[80%] md:w-[35%] md:mx-auto pl-7 md:pl-0 md:mt-40 ">Africans have a <span className="text-lightblue">unique</span> story to tell</h2>
+                    <img className="block absolute bottom-3 md:top-[50%] md:pl-[25.5%] sm:left-0  sm:h-[120px]" src={Tree} alt=""/>
                 </div>
             </header>
             <article className="">
