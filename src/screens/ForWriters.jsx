@@ -1,5 +1,4 @@
 import WomanWritingSvg from '../assets/svgs/woman-writing.svg';
-import Know_us from "../assets/svgs/Know us_.svg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react"
 import { useTheme } from "../theme"
@@ -11,31 +10,31 @@ export default function ForWriters() {
     })
     return (
         <section className='container mx-auto px-5 pb-20 md:flex md:flex-col md:items-center md:mx-auto'>
-            <header className='mt-[3%] h-[45vh] md:flex md:justify-between md:w-[70%]'>
-                <h1 className="text-[40px] md:text-[80px] w-[50%] md:w-[40%] pl-2 md:pl-0 md:order-2 md:mt-[12%]">
+            <header className='mt-[3%] h-[45vh] md:px-auto'>
+                <h1 className="absolute md:left-[25%] md:top-[-10px] top-[17%] text-[40px] md:text-[80px] w-[40%] md:w-[20%] pl-2 md:order-1 md:mt-[12%]">
                     For <span className="text-red">Writers</span>
                 </h1>
                 <img 
-                    className='relative top-[-70px] h-[311px] md:h-[406px] w-[415px] md:w-[542px] md:mt-[15%] animate-woman-writing md:order-1' 
+                    className='absolute  md:pr-10 md:top-[-50px] md:right-[15%] righgt-0 h-[311px] md:h-[406px] w-[92%] md:w-[900px] md:mt-[12%] animate-woman-writing md:order-2' 
                     src={WomanWritingSvg} 
                     alt="Illustration of a woman writing" 
                 />
             </header>
-            <main className="md:w-[75%] mt-[-15%] md:mt-[10%]">
-                <p className="text-[30px] md:text-[35px] text-lightgray">
-                    storyafrika provides a platform for African writers to share their stories, insights, and creativity with the world.
+            <main className="md:w-[70%] mt-[-20%] md:mt-[4%]">
+                <p className="text-[30px] md:text-[35px] text-white">
+                    StoryAfrica elevates African writing far and wide across the interwebs. With saturated stories in our library, we’ve cultivated rare publishing and African expertise.
                 </p>
-                <p className="text-[30px] md:text-[35px] text-lightgray md:mt-7">
-                    We invite writers to contribute their unique perspectives and narratives without any barriers or fees.
+                <p className="text-[30px] md:text-[35px] text-white md:mt-7 md:w-[97%]">
+                    African writers of all genres, writers from all African industries are welcome here. To the contributing writer, we pledge quality story distribution, African editorial expertise, and community growth.
                 </p>
+                 
+                <Link to="/about-us" smooth={true} duration={500}>
+                    <p  className="hidden md:block md:absolute bottom-[-2%] right-[12.5%] h-[22px] w-[82px] cursor-pointer text-white"> Know us ?
+                   </p>
+                </Link>
+
             </main>
-            <Link to="/about-us" smooth={true} duration={500}>
-                <img
-                    className="hidden md:block absolute bottom-[-2%] right-[12.5%] h-[22px] w-[82px] cursor-pointer"
-                    src={Know_us}
-                    alt="Know Us link"
-                />
-            </Link>
+
         </section>
     );
 }

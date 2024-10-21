@@ -1,7 +1,14 @@
 import DavidConteh from '../assets/svgs/davidconteh card.svg'
 import LukmanAufbau from '../assets/svgs/lukmanaufbau card.svg'
 import Insight from '../assets/svgs/insight.svg'
+import { useEffect } from "react"
+import { useTheme } from "../theme"
 export default function AboutUs () {
+        const {theme, setTheme} = useTheme()
+        useEffect(() => {
+        setTheme('bg-white text-black')
+    })
+    
     return (
         <section className="px-5 pb-20">
             <header className="mt-[60px] md:ml-[19%] md:mt-[150px]">
