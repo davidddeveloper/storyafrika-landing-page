@@ -5,6 +5,7 @@ import Linkedin from '../assets/svgs/linkedin.svg'
 import X from '../assets/svgs/x.svg'
 import { useEffect } from "react"
 import { useTheme } from "../theme"
+import { Link } from 'react-router-dom'
 export default function AboutUs () {
         const {theme, setTheme} = useTheme()
         useEffect(() => {
@@ -35,8 +36,8 @@ export default function AboutUs () {
                                 <div className="flex items-center justify-between">
                                     <h3 className="font-bold text-[16px] text-lightgray">David Conteh</h3>
                                     <div className='flex'>
-                                        <img className="h-[17px] w-[17px] mr-3" src={Linkedin} alt=""/>
-                                        <img className="h-[17px] w-[17px] mr-3" src={X} alt=""/>
+                                        <Link to='https://www.linkedin.com/in/david-conteh-a42871253/' target="_blank"><img className="h-[17px] w-[17px] mr-3" src={Linkedin}  alt=""/></Link>
+                                        <Link to='https://x.com/davidpaulconteh'><img className="h-[17px] w-[17px] mr-3" src={X}  alt=""/></Link>
                                     </div>
                                 </div>
                                 <p className="mt-2 text-lightgray text-[12px]">Founder and CEO</p>
@@ -49,8 +50,8 @@ export default function AboutUs () {
                                 <div className="flex items-center justify-between">
                                     <h3 className="font-bold text-[16px] text-lightgray">Lukman Aufbau</h3>
                                     <div className='flex'>
-                                        <img className="h-[17px] w-[17px] mr-3" src={Linkedin}  alt=""/>
-                                        <img className="h-[17px] w-[17px] mr-3" src={X}  alt=""/>
+                                    <Link to='https://www.linkedin.com/in/lukmanAufbau/' target="_blank"><img className="h-[17px] w-[17px] mr-3" src={Linkedin}  alt=""/></Link>
+                                    <Link to='https://x.com/lukmanAufbau'><img className="h-[17px] w-[17px] mr-3" src={X}  alt=""/></Link>
                                     </div>
                                 </div>
                                 <p className="mt-2 text-lightgray text-[12px]">COO</p>
@@ -68,8 +69,8 @@ export default function AboutUs () {
                             <div className="flex items-center justify-between">
                                 <h3 className="font-bold text-[16px] text-lightgray">Lukman Aufbau</h3>
                                 <div className='flex'>
-                                    <img className="h-[17px] w-[17px] mr-3" src={Linkedin}  alt=""/>
-                                    <img className="h-[17px] w-[17px] mr-3" src={X}  alt=""/>
+                                    <Link to='https://www.linkedin.com/in/lukmanAufbau/' target="_blank"><img className="h-[17px] w-[17px] mr-3" src={Linkedin}  alt=""/></Link>
+                                    <Link to='https://x.com/lukmanAufbau'><img className="h-[17px] w-[17px] mr-3" src={X}  alt=""/></Link>
                                 </div>
                             </div>
                             <p className="mt-2 text-lightgray text-[12px]">COO</p>
