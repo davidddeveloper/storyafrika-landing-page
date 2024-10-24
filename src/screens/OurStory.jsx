@@ -3,7 +3,7 @@ import { useTheme } from "../theme"
 import Tree from "../assets/svgs/tree.svg"
 import down from "../assets/svgs/down1.svg"
 import { Link } from "react-scroll";
-import DavidConteh from '../assets/svgs/davidconteh card.svg'
+import DavidConteh from '../assets/images/davidconteh.png'
 
 export default function OurStory () {
     const {theme, setTheme} = useTheme()
