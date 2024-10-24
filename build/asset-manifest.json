@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.972d128f.css",
-    "main.js": "/static/js/main.7b5b2860.js",
+    "main.js": "/static/js/main.000f67d1.js",
     "static/js/453.071e8316.chunk.js": "/static/js/453.071e8316.chunk.js",
     "static/media/davidconteh.png": "/static/media/davidconteh.be01c3fbddf46abeefbc.png",
     "static/media/woman-reading.svg": "/static/media/woman-reading.5d9a761cfbf07b7eb06cf90e770066e1.svg",
@@ -19,11 +19,11 @@
     "static/media/x.svg": "/static/media/x.dbf5d945f2b1af0fdb69181fdd53a942.svg",
     "static/media/Group 5.svg": "/static/media/Group 5.5266f0b540c5d7811558f8a244238f34.svg",
     "main.972d128f.css.map": "/static/css/main.972d128f.css.map",
-    "main.7b5b2860.js.map": "/static/js/main.7b5b2860.js.map",
+    "main.000f67d1.js.map": "/static/js/main.000f67d1.js.map",
     "453.071e8316.chunk.js.map": "/static/js/453.071e8316.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.972d128f.css",
-    "static/js/main.7b5b2860.js"
+    "static/js/main.000f67d1.js"
   ]
 }
