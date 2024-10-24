@@ -5,8 +5,8 @@ import Readers  from "../assets/svgs/readers.svg"
 import Writers  from "../assets/svgs/writers.svg"
 import Group  from "../assets/svgs/Group 5.svg"
 import { Link } from "react-router-dom"
-import Know_us  from "../assets/svgs/Know us_.svg"
 import { useEffect } from "react"
+import KnowUsLink from "../components/KnowUsLink"
 
 
 export default function Home() {
@@ -27,63 +27,56 @@ export default function Home() {
     >
       {/* Wrapper for Desktop View */}
       <div className="hidden md:block relative h-screen w-full">
-        <img
-          className="absolute top-[35%] right-[30%] h-[200px] object-cover"
-          src={Tree}
-          alt="Tree SVG"
-        />
-        <img
-          className="absolute top-[43%] left-[21%] h-[200px] object-cover"
-          src={Tree}
-          alt="Tree SVG"
-        />
-        <img
-          className="absolute top-10 left-[22%] h-[200px] "
-          src={Tree}
-          alt="Tree SVG"
-        />
-        <img
-          className="absolute top-[20%] left-[33%] h-[200px] object-cover opacity-70"
-          src={Tree2}
-          alt="Tree2 SVG"
-        />
-        <img
-          className="absolute top-[20%] left-[49%] h-[200px] object-cover opacity-70"
-          src={Tree2}
-          alt="Tree2 SVG"
-        />
         <Link to="/for-readers" smooth={true} duration={500}><img
-          className="absolute top-[2%] right-[25%] h-[120px] cursor-pointer"
+          className="absolute top-0 right-[5%] z-40 h-[120px] cursor-pointer"
           src={Readers}
           alt="Readers SVG"
         />
         </Link>
         <Link to="/for-writers" smooth={true} duration={500}> <img
-          className="absolute top-[55%] right-[48%] h-[120px] cursor-pointer"
+          className="absolute bottom-[15%] lg:bottom-[8%] z-40 right-[48%] h-[120px] cursor-pointer"
           src={Writers}
           alt="Writers SVG"
         />
         </Link>
-        <Link to="/about-us" smooth={true} duration={500}> <img
-          className="absolute bottom-[-2%] right-[10%] h-[22px] w-[82px] cursor-pointer"
-          src={Know_us}
-          alt="Writers SVG"
+        <KnowUsLink />
+
+        <div className="flex justify-center h-full relative">
+        <img
+          className="absolute bottom-[20%] lg:bottom-[10%] -left-[15%] lg:-left-0 lg:left-0 h-[200px] object-cover"
+          src={Tree}
+          alt="Tree SVG"
         />
-        </Link>
+        <img
+          className="absolute top-[3%] md:top-[5%] left-0 -ml-10 md:left-[8%] h-[200px] object-cover"
+          src={Tree}
+          alt="Tree SVG"
+        />
+        <img
+          className="absolute bottom-[25%] right-10 h-[200px] "
+          src={Tree}
+          alt="Tree SVG"
+        />
+        <img
+          className="absolute top-[25%] left-[14%] h-[200px] object-cover opacity-70"
+          src={Tree2}
+          alt="Tree2 SVG"
+        />
+        <img
+          className="absolute top-[25%] right-[20%] h-[200px] object-cover opacity-70"
+          src={Tree2}
+          alt="Tree2 SVG"
+        />
+          <div className="relative">
+            <img
+              className="h-[500px] lg:h-[550px] z-30 opacity-45"
+              src={Group}
+              alt="Group SVG"
+            />
+            <h2 className="inset-0 sm:text-[55px] lg:text-[75px] w-[80%] mx-auto sm:top-[18%] lg:top-[15%] absolute text-white z-10" >Success Stories & Experiences of Everyday Africans</h2>
 
-        <div className="flex justify-center  h-full top-10">
-          <img
-            className="h-[600px]"
-            src={Group}
-            alt="Group SVG"
-          />
+          </div>
         </div>
-         <article className="">
-                <p className="text-[30px] mt-[80px] text-lightgray md:text[40px] md:w-[50%] md:mx-auto">
-                Storyafrika is a platform showcasing the real-life experiences and stories of individual Africans, highlighting their upbringing, everyday successes, and much more.
-
-                </p>
-        </article>
            
       </div>
 
