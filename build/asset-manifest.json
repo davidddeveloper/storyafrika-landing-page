@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.972d128f.css",
+    "main.js": "/static/js/main.7b5b2860.js",
+    "static/js/453.071e8316.chunk.js": "/static/js/453.071e8316.chunk.js",
+    "static/media/davidconteh.png": "/static/media/davidconteh.be01c3fbddf46abeefbc.png",
+    "static/media/woman-reading.svg": "/static/media/woman-reading.5d9a761cfbf07b7eb06cf90e770066e1.svg",
+    "static/media/lukmanaufbau.jpg": "/static/media/lukmanaufbau.215d31c65cd0373bc49c.jpg",
+    "static/media/woman-writing.svg": "/static/media/woman-writing.6b8aa401a6ed43372dea483dbbf8f396.svg",
+    "static/media/readers.svg": "/static/media/readers.c7c3d35cf9609fd166af6e34e7983f8b.svg",
+    "static/media/writers.svg": "/static/media/writers.649aa19d03bf0817873c1771eb2a5d27.svg",
+    "static/media/insight.svg": "/static/media/insight.07f886b8ee1932697aedf010f839c0ed.svg",
+    "static/media/Know us_.svg": "/static/media/Know us_.b7527ce081972a0d9913b2b242a25646.svg",
+    "static/media/tree.svg": "/static/media/tree.bb9f0df4a86fc1ca28ed6cfe689f0aec.svg",
+    "static/media/tree2.svg": "/static/media/tree2.369c3ffd02190703ac38aa8465c2da66.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.f769990e72c8c2bec614abd3305769e4.svg",
+    "index.html": "/index.html",
+    "static/media/down1.svg": "/static/media/down1.a768ea5fa9c042e0bc805f0e8db3984c.svg",
+    "static/media/x.svg": "/static/media/x.dbf5d945f2b1af0fdb69181fdd53a942.svg",
+    "static/media/Group 5.svg": "/static/media/Group 5.5266f0b540c5d7811558f8a244238f34.svg",
+    "main.972d128f.css.map": "/static/css/main.972d128f.css.map",
+    "main.7b5b2860.js.map": "/static/js/main.7b5b2860.js.map",
+    "453.071e8316.chunk.js.map": "/static/js/453.071e8316.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972d128f.css",
+    "static/js/main.7b5b2860.js"
+  ]
+}
