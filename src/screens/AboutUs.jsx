@@ -30,7 +30,7 @@ export default function AboutUs () {
                     <div className="my-20 gap-5 block md:flex justify-between items-center" >
                       
                         <div className="flex flex-row w-full h-[120px] md:w-auto">
-                            <img className=" object-cover" src={DavidConteh} alt=""/>
+                            <img className=" flex-shrink object-cover" src={DavidConteh} alt=""/>
                             <div className="ml-5 md:ml-10">
                                 <div className="flex items-center justify-between">
                                     <h3 className="font-bold text-[16px] text-lightgray">David Conteh</h3>
@@ -40,11 +40,11 @@ export default function AboutUs () {
                                     </div>
                                 </div>
                                 <p className="mt-2 text-lightgray text-[12px]">Founder and CEO</p>
-                                <p className="mt-2 text-[14px] text-lightgray">I want to influence people to be the best version of themselves</p>
+                                <p className="mt-2 text-[14px] text-lightgray">Grew up in Sierra Leone. Now a software developer, shaping the future online</p>
                             </div>
                         </div>
                         <div className="md:flex hidden md:flex-row h-[120px] flex-col w-full md:w-auto">
-                            <img className="" src={LukmanAufbau} alt=""/>
+                            <img className="flex-shrink" src={LukmanAufbau} alt=""/>
                             <div className="ml-5 md:ml-10">
                                 <div className="flex items-center justify-between">
                                     <h3 className="font-bold text-[16px] text-lightgray">Lukman Aufbau</h3>
@@ -54,16 +54,16 @@ export default function AboutUs () {
                                     </div>
                                 </div>
                                 <p className="mt-2 text-lightgray text-[12px]">COO</p>
-                                <p className="mt-2 text-[14px] text-lightgray">I am a computer scientist and a writer. Author of My Life on a HackerNoon</p>
+                                <p className="mt-2 text-[14px] text-lightgray">Grew up in Nigeria. Professional writer. Author of My Life on a HackerNoon</p>
                             </div>
                         </div>
                           
                     </div>
-                    <p className="mt-10 text-[20px] md:text-lightgray">StoryAfrika's a small team of creators, writers, and Authors people working to publish the best African stories and build the best African publishing software. </p>
-                    <p className="mt-10 text-[20px] md:text-lightgray">I run the business with my partner Lukman Aufbau. Our entirely free library is Success Stories & Experiences of Everyday Africans, #shortstories, #writing, #storytelling, and everything else #African stories. Our flagship software is the content management system that powers storyafrika. It’s built to connect everyday Africans through storytelling and writing. read, write, learn, and publish — all for free — no paywalls, popups, or needless pixels — just quality African stories. </p>
+                    <p className="mt-10 text-[20px] md:text-lightgray">StoryAfrika is a small team of creators, writers, and Authors people working to publish the best African stories and build the best African publishing software. </p>
+                    <p className="mt-10 text-[20px] md:text-lightgray">I run the business with my partner Lukman Aufbau. Our entirely free library is Success Stories & Experiences of Everyday Africans, #shortstories, #writing, #storytelling, and everything else #African stories. Our flagship software is the content management system that powers storyafrika. It's built to connect everyday Africans through storytelling and writing. Read, write, learn, and publish — all for free — no paywalls, popups, or needless pixels — just quality African stories. </p>
                     <p className="mt-10 text-[20px] md:text-lightgray">In addition to running ads, StoryAfrika aims to monetize via business blogging and writing contests. In my spare time, I enjoy coding, reading, and being around positive ppl, like my partner Lukman Aufbau.</p>
-                    <div className="mt-10 flex md:hidden w-full md:w-auto">
-                        <img className="h-[98px] w-[105px]" src={LukmanAufbau} alt=""/>
+                    <div className="mt-10 flex md:hidden w-full h-[120px] md:w-auto">
+                        <img className="flex-shrink object-cover" src={LukmanAufbau} alt=""/>
                         <div className="ml-5 md:ml-10">
                             <div className="flex items-center justify-between">
                                 <h3 className="font-bold text-[16px] text-lightgray">Lukman Aufbau</h3>
@@ -73,7 +73,7 @@ export default function AboutUs () {
                                 </div>
                             </div>
                             <p className="mt-2 text-lightgray text-[12px]">COO</p>
-                            <p className="mt-2 text-[14px] text-lightgray">I am a data scientist and a writer. Author of My Life on a HackerNoon</p>
+                            <p className="mt-2 text-[14px] text-lightgray">Grew up in Nigeria. Professional writer. Author of My Life on a HackerNoon</p>
                         </div>
                     </div>
                     <section>

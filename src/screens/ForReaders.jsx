@@ -13,7 +13,7 @@ export default function ForReaders () {
          </header>
          <main className="container mx-auto mt-[40px]">
            <p className="text-[30px] text-lightgray">storyafrika reflects the African writing industry with insightful, educational, and timely stories written by real African professionals. </p>
-           <p className=" text-[30px] text-lightgray md:mt-7">To the internet visitor, we pledge no paywall, no pop-up ads, and ≈42 new stories every day. Learn anything about Africa for free on storyafrika.</p>
+           <p className=" text-[30px] text-lightgray md:mt-7">To the internet visitor, we pledge no paywall and no pop-up ads. Learn anything about Afrika for free on storyafrika.</p>
          </main>
          <KnowUsLink />
 
