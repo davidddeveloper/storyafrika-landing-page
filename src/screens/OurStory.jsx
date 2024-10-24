@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 import DavidConteh from '../assets/images/davidconteh.png'
 import Linkedin from '../assets/svgs/linkedin.svg'
 import X from '../assets/svgs/x.svg'
+import KnowUsLink from "../components/KnowUsLink";
 
 export default function OurStory () {
     const {theme, setTheme} = useTheme()
@@ -47,7 +48,7 @@ export default function OurStory () {
                     </div>
                 </div>
             </article>
- 
+            <KnowUsLink color='white' />
             
         </section>
     )
